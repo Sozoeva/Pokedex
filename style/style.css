@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+main {
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20%;
+  z-index: 10;
+  padding: 2% 0;
+}
+
+.pokemonsLogo {
+  width: 15%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.headerContent {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 20%;
+}
+
+.headerContent a:hover {
+  color: orange;
+}
+
+.intro {
+  max-width: 100%;
+}
+
+.introContent {
+  margin-top: -55%;
+  position: absolute;
+  z-index: 1;
+  padding: 20% 20% 0 20%;
+}
+
+.introImg {
+  width: 100%;
+  z-index: -1;
+}
+
+.introTitle {
+  font-size: 60px;
+  text-align: center;
+}
+
+.introText {
+  font-size: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.interestFact {
+  margin-top: 5%;
+}
+
+.pokedex {
+  margin-top: 5%;
+  margin-bottom: 25%;
+}
+
+.pokedexTitle {
+  margin-bottom: 5%;
+  color: #6b8e23;
+}
+
+.pokemons {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+  text-align: center;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: orange;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.pokemon:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.pokemonsName {
+  font-size: 20px;
+  margin: 2%;
+}
+
+.pokemonsName::first-letter {
+  text-transform: uppercase;
+}
+
+.moreBtn {
+  background-color: rgb(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 20%;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.moreBtn:hover {
+  width: 25%;
+}
+
+.pokemonsImg {
+  width: 60%;
+  height: 70%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.modalWin {
+  margin: 15% 0 0 30%;
+  padding: 20px;
+  width: 40%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+}
+
+.about {
+  margin-top: 10%;
+  text-align: left;
+}
+
+.about p {
+  padding-bottom: 2%;
+  font-size: 16px;
+}
+
+.exitBtn {
+  padding: 1% 4%;
+  background-color: rgb(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.modalImg {
+  width: 50%;
+}
+
+.factTitle {
+  color: #6b8e23;
+  margin-bottom: 2%;
+}
+
+.slider {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slides {
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  padding: 20px;
+  box-sizing: border-box;
+  color: black;
+  border: 1px solid #6b8e23;
+  border-radius: 20px;
+}
+
+.slide h3 {
+  color: black;
+  margin-bottom: 2%;
+}
+
+.slide p {
+  color: black;
+}
+
+.slideImg {
+  width: 50%;
+}
+
+.back,
+.next {
+  margin-top: 10px;
+  background-color: orange;
+  border-radius: 5px;
+  border: none;
+  padding: 1% 2%;
+}
+
+footer {
+  margin-top: 5%;
+  padding: 2% 0;
+  background-color: orange;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-self: center;
+  align-items: center;
+  gap: 20%;
+}
+
+.footerLogo {
+  margin-left: 10%;
+  width: 50%;
+}
+
+.footerBuy {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerBuy a {
+  margin-bottom: 2%;
+}
+
+.footerLink {
+  margin: 0;
+}
+
+.footerMedia img {
+  width: 5%;
+}

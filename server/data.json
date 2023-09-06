@@ -1,0 +1,205 @@
+    {
+        "pokemons": [
+            {
+                "id": 1,
+                "name": "bulbasaur",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+                "weight": 6.9,
+                "height": 0.7,
+                "category": "Seed",
+                "abilities": "Overgrow - powers up Grass-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#6B8E23"
+            },
+            {
+                "id": 2,
+                "name": "ivysaur",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+                "weight": 13.0,
+                "height": 1.0,
+                "category": "Seed",
+                "abilities": "Overgrow - powers up Grass-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#6B8E23"
+            },
+            {
+                "id": 3, 
+                "name": "venusaur",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+                "weight": 100.0,
+                "height": 2.0,
+                "category": "Seed",
+                "abilities": "Overgrow - powers up Grass-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#6B8E23"
+            },
+            {
+                "id": 4,
+                "name": "charmander",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+                "weight": 8.5,
+                "height": 0.6,
+                "category": "Lizard",
+                "abilities": "Blaze - powers up Fire-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#FA8072"
+            },
+            {
+                "id": 5,
+                "name": "charmeleon",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png",
+                "weight": 19.0,
+                "height": 1.1,
+                "category": "Flame",
+                "abilities": "Blaze - powers up Fire-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#FA8072"
+            },
+            {
+                "id": 6,
+                "name": "charizard",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+                "weight": 90.5,
+                "height": 1.7,
+                "category": "Flame",
+                "abilities": "Blaze - powers up Fire-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#FA8072"
+            },
+            {
+                "id": 7,
+                "name": "squirtle",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+                "weight": 9.0,
+                "height": 0.5,
+                "category": "Tiny Turtle",
+                "abilities": "Torrent - powers up Water-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#87CEFA"
+            },
+            {
+                "id": 8,
+                "name": "wartortle",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+                "weight": 22.5,
+                "height": 1.0,
+                "category": "Turtle",
+                "abilities": "Torrent - powers up Water-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#87CEFA"
+            },
+            {
+                "id": 9,
+                "name": "blastoise",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+                "weight": 85.5,
+                "height": 1.6,
+                "category": "Shellfish",
+                "abilities": "Torrent - powers up Water-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#87CEFA"
+            },
+            {
+                "id": 10,
+                "name": "caterpie",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+                "weight": 2.9,
+                "height": 0.3,
+                "category": "Worm",
+                "abilities": "Shield Dust - protective dust shields the Pokémon from the additional effects of moves.",
+                "backgroundColor": "#90EE90"
+            },
+            {
+                "id": 11,
+                "name": "metapod",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+                "weight": 9.9,
+                "height": 0.7,
+                "category": "Cocoon",
+                "abilities": "Shield Dust - protective dust shields the Pokémon from the additional effects of moves.",
+                "backgroundColor": "#90EE90"
+            },
+            {
+                "id": 12,
+                "name": "butterfree",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+                "weight": 32.0,
+                "height": 1.1,
+                "category": "Butterfly",
+                "abilities": "Shield Dust - protective dust shields the Pokémon from the additional effects of moves.",
+                "backgroundColor": "#90EE90"
+            },
+            {
+                "id": 13,
+                "name": "weedle",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+                "weight": 3.2,
+                "height": 0.3,
+                "category": "Hairy Bug",
+                "abilities": "Shield Dust - protective dust shields the Pokémon from the additional effects of moves.",
+                "backgroundColor": "#F5DEB3"
+            },
+            {
+                "id": 14,
+                "name": "kakuna",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png",
+                "weight": 10.0,
+                "height": 0.6,
+                "category": "Cocoon",
+                "abilities": "Shed Skin - the Pokémon may cure its own status conditions by shedding its skin.",
+                "backgroundColor": "#F5DEB3"
+      
+            },
+            {
+                "id": 15,
+                "name": "beedrill",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png",
+                "weight": 29.5,
+                "height": 1.0,
+                "category": "Poison Bee",
+                "abilities": "Swarm - powers up Bug-type moves when the Pokémon’s HP is low.",
+                "backgroundColor": "#F5DEB3"
+            },
+            {
+                "id": 16,
+                "name": "pidgey",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+                "weight": 1.8,
+                "height": 0.3,
+                "category": "Tiny Bird",
+                "abilities": "Keen Eye - the Pokémon’s keen eyes prevent its accuracy from being lowered. Tangled Feet - boosts the Pokémon’s evasiveness if it is confused.",
+                "backgroundColor": "#B0E0E6"
+            },
+            {
+                "id": 17,
+                "name": "pidgeotto",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+                "weight": 30.0,
+                "height": 1.1,
+                "category": "Bird",
+                "abilities": "Keen Eye - the Pokémon’s keen eyes prevent its accuracy from being lowered. Tangled Feet - boosts the Pokémon’s evasiveness if it is confused.",
+                "backgroundColor": "#B0E0E6"
+            },
+            {
+                "id": 18,
+                "name": "pidgeot",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png",
+                "weight": 39.5,
+                "height": 1.1,
+                "category": "Bird",
+                "abilities": "Keen Eye - the Pokémon’s keen eyes prevent its accuracy from being lowered. Tangled Feet - boosts the Pokémon’s evasiveness if it is confused.",
+                "backgroundColor": "#B0E0E6"
+            },
+            {
+                "id": 19,
+                "name": "rattata",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+                "weight": 3.5,
+                "height": 0.3,
+                "category": "Mouse",
+                "abilities": "Run Away - enables a sure getaway from wild Pokémon. Guts - it’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+                "backgroundColor": "#DEB887"
+            },
+            {
+                "id": 20,
+                "name": "raticate",
+                "img": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png",
+                "weight": 18.5,
+                "height": 0.7,
+                "category": "Mouse",
+                "abilities": "Run Away - enables a sure getaway from wild Pokémon. Guts - it’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+                "backgroundColor": "#DEB887"
+            }
+        ]
+    }

@@ -1,0 +1,219 @@
+@media screen and (max-width: 1200px) {
+  .pokedex {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .headerContent {
+    gap: 10%;
+  }
+
+  .introContent {
+    margin-top: -60%;
+    padding: 20% 15% 0 15%;
+  }
+
+  .introTitle {
+    font-size: 56px;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerContent {
+    gap: 10%;
+  }
+
+  .headerContent {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15%;
+  }
+
+  .headerContent a {
+    margin-bottom: 5px;
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .introContent {
+    margin-top: -60%;
+    padding: 20% 10% 0 10%;
+  }
+
+  .introTitle {
+    font-size: 46px;
+  }
+
+  .modalWin {
+    margin: 15% 0 0 25%;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerContent {
+    gap: 10%;
+  }
+  .introTitle {
+    font-size: 38px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+
+  .pokemonsName {
+    font-size: 16px;
+  }
+
+  .pokemons {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .interestFact {
+    margin-top: 90%;
+  }
+
+  .about p {
+    font-size: 12px;
+  }
+
+  .pokedex {
+    margin-top: 10%;
+    margin-bottom: 30%;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+
+  .modalWin {
+    margin: 15% 0 0 20%;
+    width: 60%;
+  }
+
+  .modalImg {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headerContent {
+    gap: 5%;
+  }
+
+  .introTitle {
+    font-size: 32px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+
+  .link {
+    font-size: 10px;
+  }
+
+  .pokemonsName {
+    font-size: 12px;
+  }
+
+  .about p {
+    font-size: 10px;
+  }
+
+  .moreBtn {
+    font-size: 10px;
+    width: 50%;
+  }
+
+  .footer {
+    gap: 2%;
+  }
+
+  .modalImg {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .introText {
+    display: none;
+  }
+
+  .slideTitle {
+    font-size: 14px;
+  }
+
+  .description {
+    gap: 5%;
+  }
+  .pokemonsAbilities {
+    display: none;
+  }
+
+  .sliderText {
+    display: none;
+  }
+
+  .moreBtn {
+    width: 20%;
+  }
+
+  .pokemons {
+    grid-template-columns: 1fr;
+    gap: 1%;
+  }
+
+  .interestFact {
+    margin-top: 280%;
+  }
+
+  .slideImg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 8px;
+  }
+
+  .link {
+    font-size: 8px;
+  }
+}
